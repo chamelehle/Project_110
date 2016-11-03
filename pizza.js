@@ -71,15 +71,15 @@ function result()
   var calc2 = getCookie("a2");
   var calc3 = getCookie("a3");
   var percentage;
-  if(calc1 == "false" && calc2 == "false")
+  if(calc1 == "true" && calc2 == "true" && calc3=="false")
   {
     percentage = 66;
   }
-  else if(calc2== "false" && calc3== "false")
+  else if(calc2== "true" && calc3== "true"&& calc1=="false")
   {
     percentage = 66;
   }
-  else if(calc1== "false" && calc3== "false")
+  else if(calc1== "true" && calc3== "true" && calc2=="false")
   {
     percentage = 66;
   }
@@ -95,7 +95,6 @@ function result()
   {
     percentage = 33;
   }
-
   document.getElementById("sub").innerHTML = asPercentage(percentage);
 }
 function asPercentage(percent)
