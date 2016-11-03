@@ -1,0 +1,22 @@
+/*Cory Hamelehle
+CINS 110
+Project
+*/
+h1
+{
+  color: navy;
+  margin-left: 20px;
+}
+p
+{
+  color: blue;
+}
+body
+{
+  background-color:powderblue;
+}
+button
+{
+  background-color:lightblue;
+  color:darkblue;
+}
