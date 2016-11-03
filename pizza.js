@@ -1,3 +1,4 @@
+//Cory Hamelehle
 var result1, result2, result3;
 
 
